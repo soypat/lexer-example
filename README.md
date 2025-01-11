@@ -1,9 +1,9 @@
 # go-module-template
-[![go.dev reference](https://pkg.go.dev/badge/github.com/soypat/go-module-template)](https://pkg.go.dev/github.com/soypat/go-module-template)
-[![Go Report Card](https://goreportcard.com/badge/github.com/soypat/go-module-template)](https://goreportcard.com/report/github.com/soypat/go-module-template)
-[![codecov](https://codecov.io/gh/soypat/go-module-template/branch/main/graph/badge.svg)](https://codecov.io/gh/soypat/go-module-template)
-[![Go](https://github.com/soypat/go-module-template/actions/workflows/go.yml/badge.svg)](https://github.com/soypat/go-module-template/actions/workflows/go.yml)
-[![sourcegraph](https://sourcegraph.com/github.com/soypat/go-module-template/-/badge.svg)](https://sourcegraph.com/github.com/soypat/go-module-template?badge)
+[![go.dev reference](https://pkg.go.dev/badge/github.com/soypat/lexer-example)](https://pkg.go.dev/github.com/soypat/lexer-example)
+[![Go Report Card](https://goreportcard.com/badge/github.com/soypat/lexer-example)](https://goreportcard.com/report/github.com/soypat/lexer-example)
+[![codecov](https://codecov.io/gh/soypat/lexer-example/branch/main/graph/badge.svg)](https://codecov.io/gh/soypat/lexer-example)
+[![Go](https://github.com/soypat/lexer-example/actions/workflows/go.yml/badge.svg)](https://github.com/soypat/lexer-example/actions/workflows/go.yml)
+[![sourcegraph](https://sourcegraph.com/github.com/soypat/lexer-example/-/badge.svg)](https://sourcegraph.com/github.com/soypat/lexer-example?badge)
 <!--
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -16,7 +16,7 @@ Go module template with instructions on how to make your code importable and set
 
 How to install package with newer versions of Go (+1.16):
 ```sh
-go mod download github.com/soypat/go-module-template@latest
+go mod download github.com/soypat/lexer-example@latest
 ```
 
 
@@ -26,7 +26,7 @@ go mod download github.com/soypat/go-module-template@latest
 
 1. Fix `go.mod` file by replacing `github.com/YOURUSER/YOURREPONAME` with your corresponding project repository link.
 
-2. Replace `soypat/go-module-template` in the badge URLs. Make sure you've replaced all of them by performing text search in the readme for `soypat` and `template`.
+2. Replace `soypat/lexer-example` in the badge URLs. Make sure you've replaced all of them by performing text search in the readme for `soypat` and `template`.
 
 3. Rename `module.go` and `module_test.go` to fit your own repository needs. Below are some exemplary modules that abide by what's generally considered "good practices":
     - [`mu8` minimal machine learning library](https://github.com/soypat/mu8). Note how most interfaces and interface algorithms are defined at the root package level and how the concrete implementations live in the subdirectories.
